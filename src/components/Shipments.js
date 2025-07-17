@@ -2,7 +2,7 @@ import React from "react";
 
 const Shipments = (props) => {
   return (
-    <div className="container mt-4">
+    <div className="DashCardSpacing container mt-4">
       <h4 className="mb-4">Recent Shipments</h4>
       <div className="card-body">
         <h5

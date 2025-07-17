@@ -15,7 +15,7 @@ a.menuHover{
     margin-left: 250px;
 }
 .DashCardSpacing {
-    margin: 0px 80px;
+    margin: 0px 0px 0px 90px
 }
 .cardHoverLight, .cardHoverDark {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -40,4 +40,9 @@ a.menuHover{
 .tableBgdarkModal li{
     background: #6d757d;
     color: #fff;
+}
+@media only screen and (max-width: 991px) {
+ .DashCardSpacing {
+    margin: 0px 0px 0px 90px
+}
 }

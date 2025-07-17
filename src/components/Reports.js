@@ -2,7 +2,7 @@ import React from "react";
 
 const Reports = (props) => {
   return (
-    <div className="container mt-5 pt-5">
+    <div className="DashCardSpacing container mt-5 pt-5">
       <h5 className={`text-${props.toggleDark === "light" ? "dark" : "light"}`}>
         These are the reports which give you an idea about the status of
         shipments

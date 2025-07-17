@@ -3,7 +3,7 @@ import React from "react";
 const Settings = (props) => {
   return (
     <div
-      className={`container mt-5 pt-5  text-${
+      className={`DashCardSpacing container mt-5 pt-5  text-${
         props.toggleDark === "light" ? "dark" : "light"
       }`}
     >
