@@ -1,0 +1,43 @@
+a.menuHover:hover {
+background: #fcfcfc88;
+padding: 4px;
+border-radius: 5px;
+}
+a.menuHover.active {
+background: #fcfcfc88;
+padding: 4px;
+border-radius: 5px;
+}
+a.menuHover{
+    padding: 4px;
+}
+.flyoutSpacing {
+    margin-left: 250px;
+}
+.DashCardSpacing {
+    margin: 0px 80px;
+}
+.cardHoverLight, .cardHoverDark {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.cardHoverLight:hover {
+    transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+.cardHoverDark:hover {
+    transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(231, 229, 229, 0.411);
+}
+.tableBglight li{
+    background: #f8f9fa;
+}
+.tableBgdark li{
+    background: #212529;
+    color: #fff;
+}
+.tableBgdarkModal li{
+    background: #6d757d;
+    color: #fff;
+}
