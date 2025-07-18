@@ -10,14 +10,14 @@ Responsive till a certain screen size
 
 Installation
 
-#clone the repository
+#clone the repository - 
 git clone https://github.com/gnambair/my-product-logistics.git
 
-#Navigate to the project folder
+#Navigate to the project folder - 
 cd my-product-logistics
 
-#Install dependencies
+#Install dependencies - 
 npm install
 
-#start the development server
+#start the development server - 
 npm start
